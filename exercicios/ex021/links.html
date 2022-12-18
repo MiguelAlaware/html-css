@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+
+        .especial{
+            background-color: rgba(165, 42, 42, 0.432);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: rgb(88, 88, 182);
+        }
+
+        a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://github.com/MiguelAlaware?tab=repositories" target="_blank">Repositório do GitHub</a></li>
+        <li><a href="https://www.instagram.com/miguelfialhoev/" target="_blank">Instagram</a></li>
+        <li ><a href="https://www.youtube.com/channel/UCMWOrBTomWEU0WinUjzqDoA" target="_blank" class="especial">Youtube</a></li>
+</ul>
+</body>
+</html>
