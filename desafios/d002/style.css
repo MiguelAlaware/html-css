@@ -19,7 +19,7 @@
 }
 
 html, body {
-    min-height: 100%vh;
+    min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte1);    
 }
@@ -76,7 +76,7 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.473);  
-    width: 300px;
+    width: 400px;
 }
 
 footer {
