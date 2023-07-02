@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <link rel="stylesheet" href="estilo/style.css">
     <title>Media Query</title>
+    
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opt 1</a></li>
                 <li><a href="#">Opt 2</a></li>
@@ -29,5 +34,15 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat laudantium recusandae assumenda fugit reiciendis facere, natus at alias, perferendis temporibus odit inventore impedit laborum eligendi enim ex dignissimos libero. Vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum ullam cum ipsa quia doloribus delectus voluptatibus atque sit illo voluptate explicabo, adipisci blanditiis natus reiciendis culpa facilis quae quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam, aperiam quo velit distinctio quia iste facilis? Odio, deserunt iure? Laudantium saepe est inventore quia iste quidem, iusto voluptates? Aliquid. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis cumque at, laborum, nulla sint, maiores eius quia voluptatibus culpa illo doloribus beatae odit totam. Nam beatae non adipisci deserunt eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum veniam, quam sapiente suscipit magnam aspernatur reiciendis. Itaque dolor, repellat quos ab laborum excepturi, voluptate at saepe corporis ipsum quis.</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if(itens.style.display == 'block')
+            {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
